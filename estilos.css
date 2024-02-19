@@ -1,0 +1,141 @@
+div{
+
+    display: block;
+}
+
+.menu1{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000747;
+    list-style: none;  
+
+}
+
+.menu1 li a{
+
+    color: white;
+}
+
+.flex{
+
+    display: flex;
+    width: fit-content;
+}
+
+.ficha {
+    width:auto;
+    border: 1px solid #d5d5d5;
+    box-shadow: 0px 1px 20px #d5d5d5;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    font-family: "Oswald", sans-serif;
+}
+
+.fichas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ficha-img img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.fondo{
+
+    background-image: url(./Imagenes/backgroundavatar.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    width: 100%;
+}
+
+.espaciador{
+    height: 350px;
+    width: 1300px;
+    margin: 0 auto 0 auto;
+}
+
+
+li{
+    display: list-item;
+}
+
+
+.container2{
+    width: 100%;
+    align-items: center;
+}
+
+.top{
+
+    align-items: center;
+    background-color: #000747;
+    color: white;
+    justify-content: center;
+    
+}
+
+.morado{
+    background-color: #16023b;
+    align-items: start;
+    color: white;
+}
+
+.avatar{
+
+    font-size: 150px;
+    align-items: center;
+    color: white;
+}
+
+.boton-blanco:hover {
+    background-color: white;
+    color:blue;
+}
+
+.boton-blanco {
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: 185px;
+    height: 51px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondo2{
+
+    background-color: #000747;
+    justify-content: space-around;    
+    align-items: center;
+}
+
+.fondo3{
+
+    background-color: white;
+}
+
+.container3{
+
+    padding: 5px;
+}
+
+.footer1{
+
+    justify-content: space-around;
+}
+ .backf{
+    background-color: #000747;
+    color: white;
+ }
+
+ .fontw{
+
+    color: white;
+ }
